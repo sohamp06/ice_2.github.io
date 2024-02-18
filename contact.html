@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Contact</title>
+    <link href="context/app.css" rel="stylesheet">
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+</head>
+<body>
+<header>
+
+</header>
+<main class=" container">
+    <h1>Contact</h1>
+    <div class="row justify-content-lg-center g-3">
+        <form class="col-lg-6 col-10 col-sm-10">
+            <div class="input-group mb-3">
+                <span class="input-group-text">Full Name</span>
+                <input id="fullName" name="fullName" type="text" class="form-control" aria-describedby="fullName" aria-label="Full Name Input">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Contact Number</span>
+                <input id="contactNumber" name="contactNumber" type="tel" class="form-control" aria-describedby="Contact Number" aria-label="Contact Number Input">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Email</span>
+                <input id="email" name="email" type="text" class="form-control" aria-describedby="email Area" aria-label="email Area Input">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Message</span>
+                <input id="message" name="message" type="text" class="form-control" aria-describedby="Message Area" aria-label="Message Area Input">
+            </div>
+            <div class="input-group mb-3">
+                <input id="subscribe" name="subscribe" type="checkbox" class="form-check-input">
+                <label class="form-check-label" for="subscribe">Subscribe</label>
+            </div>
+            <button id="sendButton" type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i>Submit</button>
+            <button id="cancelButton" type="button" class="btn btn-warning"><i class="fa-solid fa-door-closed"></i>Cancel</button>
+        </form>
+        <div class="col-lg-4 col-md-4"></div>
+        <div class="input-group mb-3">
+            <a href="contact-list.html" class="btn btn-primary"><i class="fa-solid fa-cannabis"></i>show contact List</a>
+        </div>
+    </div>
+</main>
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="Scripts/namespace.js"></script>
+<script src="Scripts/contact.js"></script>
+<script src="Scripts/app.js"></script>
+</body>
+</html>
